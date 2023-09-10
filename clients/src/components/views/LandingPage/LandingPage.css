@@ -1,0 +1,51 @@
+/* LandingPage.css */
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* Set your desired background color */
+}
+
+.landing-content {
+    text-align: center;
+}
+
+.landing-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.landing-links {
+    text-align: center;
+    /* Center-align the content within .landing-links */
+}
+
+.landing-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Center-align the list items horizontally */
+    align-items: center;
+}
+
+.landing-links ul li {
+    margin: 0 10px;
+    /* Add spacing around list items */
+}
+
+.landing-link {
+    text-decoration: none;
+    color: #007bff;
+    /* Set your link color */
+    font-weight: bold;
+    /* Add font weight if desired */
+}
+
+/* Add more styles as needed */
